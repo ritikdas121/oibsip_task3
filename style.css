@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+body{
+    font-family:'Comfortaa', cursive;
+    background-color: #dfdfdf;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+    padding: 50px;
+    margin-top: 200px;
+    border-radius: 30px;
+    color: rgba(0, 0, 0);
+}
+
+input{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-size: large;
+}
+
+
+.label{
+    margin:10px 0px;
+}
+
+label , .resultcontainer{
+    padding: 10px 0px;
+}
+
+select{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-size: large;
+}
+
+.submit{
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(0, 51, 255);
+    font-family: 'Comforta' cursive;
+    font-size: larger;
+    border-radius: 10px;
+    padding: 15px 20px;
+    cursor:pointer;
+
+
+}
+
+#resultContainer{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    font-size: large;
+}
